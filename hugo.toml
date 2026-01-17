@@ -1,0 +1,35 @@
+baseURL = "https://yirutao.github.io/"
+languageCode = "zh-cn"
+title = "Tyr Blog"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+
+[params.profileMode]
+  enabled = true
+  title = "陶翼如"
+  subtitle = "嵌入式开发工程师"
+  imageUrl = "/avatar.jpg"
+  imageTitle = "avatar"
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 1
+
+[[menu.main]]
+  name = "Resume"
+  url = "/resume.pdf"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3

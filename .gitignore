@@ -1,0 +1,6 @@
+.DS_Store
+.hugo_build.lock
+
+# Hugo build output (built by GitHub Actions)
+public/
+resources/
