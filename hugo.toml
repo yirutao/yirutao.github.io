@@ -19,17 +19,38 @@ theme = "PaperMod"
   imageUrl = "/avatar.jpg"
   imageTitle = "avatar"
 
+[[params.profileMode.buttons]]
+  name = "Posts"
+  url = "/posts/"
+
+[[params.profileMode.buttons]]
+  name = "Technology"
+  url = "/technology/"
+
+[[params.profileMode.buttons]]
+  name = "Thoughts"
+  url = "/thoughts/"
+
+[[params.profileMode.buttons]]
+  name = "About"
+  url = "/about/"
+
 [[menu.main]]
   name = "Posts"
   url = "/posts/"
   weight = 1
 
 [[menu.main]]
-  name = "Resume"
-  url = "/resume.pdf"
+  name = "Technology"
+  url = "/technology/"
   weight = 2
+
+[[menu.main]]
+  name = "Thoughts"
+  url = "/thoughts/"
+  weight = 3
 
 [[menu.main]]
   name = "About"
   url = "/about/"
-  weight = 3
+  weight = 4
